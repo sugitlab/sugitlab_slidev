@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "homepage": "http://sugitlab.github.io/sugitlab_slidev",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.10.1",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "name": "sugitlab",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
